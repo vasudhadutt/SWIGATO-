@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: px;
+
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+#top{
+     position: fixed;
+     right: 30px;
+     bottom: 30px;
+
+
+}
+
+.hr1{
+    /* border: 3px;
+    border-style: solid;
+    border-color: rgb(116, 11, 32); */
+    border: 3px solid rgb(251, 100, 183);
+}
+.hr2{
+    /* border: 3px;
+    border-style: solid;
+    border-color: rgb(116, 11, 32); */
+    border: 3px solid rgb(214, 106, 198);
+}
+.hr3{
+    /* border: 3px;
+    border-style: solid;
+    border-color: rgb(116, 11, 32); */
+    border: 3px solid rgb(118, 75, 210);
+}
+
+.hr4{
+    /* border: 3px;
+    border-style: solid;
+    border-color: rgb(116, 11, 32); */
+    border: 3px solid rgb(133, 90, 186);
+}
+.hr5{
+    /* border: 3px;
+    border-style: solid;
+    border-color: rgb(116, 11, 32); */
+    border: 3px solid rgb(133, 122, 161);
+}
+.hr6{
+    /* border: 3px;
+    border-style: solid;
+    border-color: rgb(116, 11, 32); */
+    border: 3px solid rgb(179, 33, 132);
+}
+body{
+    background-color: rgb(204, 226, 226);
+}
+/* navigation bar  */
+#navbar{
+    display: flex;
+    background-color: rgb(56, 6, 40);
+    color: rgb(214, 171, 225);
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#logo{
+    width: 20%;
+    text-align: center;
+}
+#logoimage{
+    margin: 5px;
+    padding: 2px;
+    height: 50px;
+    border-radius: 35px;
+}
+#links{
+    width: 60%;
+
+} 
+
+#navlinks{
+    display: flex;
+    list-style-type: none;
+
+}
+#navlinks li{
+    padding: 10px;
+
+}
+#navlinks a{
+color: rgb(74, 141, 200);
+text-decoration: none;
+font-size: 18px;
+font-family: 'Chivo Mono', monospace;
+padding: 9px;
+border-radius: 15px;
+
+}
+#navlinks a:hover{
+    color: rgb(56, 21, 55);
+    background-color: rgb(137, 102, 154);
+    transition: 1s;
+
+}
+
+
+
+#search{
+    width: 20%;
+    /* horizontal center */
+    text-align: center;
+    /* vertical center */
+    align-items: center;
+
+}
+#searchbox{
+    width: 110px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(32, 3, 35);
+    padding: 5px;
+
+}
+/* Navigation bar ends here */
+/* welcome section starts */
+#welcome{
+    display: flex;
+    height: 400px;
+    text-align: center;
+    align-items: center;
+   justify-content: center;
+}
+/* About Us */
+#aboutus{
+    height: 400px;
+    text-align: center;
+    padding: 15px;
+}
+#services{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.border1{
+    box-sizing: border-box;
+    border-width: 3px;
+    border-style: groove;
+    border-color: rgb(106, 53, 115);
+    border-radius: 5px;
+    height: 300px;
+    width: 30%;
+    padding: 15px;
+}
+#servicefood{
+    background-color: rgb(183, 96, 181);
+    
+}
+#servicecatering{
+    background-color: rgb(143, 143, 198);
+}
+#servicebulk{
+    background-color: rgb(36, 33, 36);
+}
+.serviceimg{
+    height: 170px;
+    
+    margin: 10px;
+    border-radius: 20px;
+
+}
+.font1{
+    font-size: 20px;
+    color: rgb(157, 0, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+/* Clients Section Starts */
+#clients{
+    height: 400px;
+}
+/* Contact Us Section Starts */
+#contactus{
+    height: 650px;
+    background-image: url(backgroundform.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* text-align: center; */
+    padding: 15px;
+
+}
+.font2{
+    color: rgb(117, 20, 220);
+    font-size: 28px;
+    margin: 15px;
+    text-align: center;
+}
+#contactbox{
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+#contactbox input , #contactbox textarea{
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(238, 175, 228);
+    font-size: 18px;
+}
+#contactbox label{
+    padding: 5px;
+   margin: 5px;
+}
+/* Social media Starts Here */
+#social{
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+}
